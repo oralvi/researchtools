@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Rust
+target/
+
+# Build / packaging outputs
+build/
+dist/
+*.build/
+*.dist/
+*.onefile-build/
+
+# Binary artifacts
+*.bat
+*.ps1
+*.exe
+
+# Exceptions: Allow Git management scripts
+!git-manager.ps1
+!run-git-manager.ps1
+!run-git-manager.bat
+!create_remote_repo.ps1
+*.dll
+*.pyd
+*.obj
+*.lib
+*.exp
+*.bin
+*.payload
+
+# Tooling and logs
+nuitka-crash-report.xml
+clcache-stats*.txt
+scons-*.txt
+scons-debug.*
+
+# Tests and temporary files
+test_import.py
+test_import2.py
+test_hack.py
+testdata*
+sample*
+
+# OS
+.DS_Store
+Thumbs.db

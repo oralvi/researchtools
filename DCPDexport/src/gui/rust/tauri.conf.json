@@ -1,0 +1,32 @@
+{
+  "productName": "DCPD GUI",
+  "version": "0.1.0",
+  "identifier": "com.dcpd.gui",
+  "build": {
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "./dist",
+    "beforeDevCommand": "",
+    "beforeBuildCommand": ""
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "DCPD GUI",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon.ico"
+    ]
+  }
+}
